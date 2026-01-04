@@ -1,0 +1,184 @@
+{
+  "body": {
+    "took": 149,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 10,
+        "relation": "eq"
+      },
+      "max_score": 1,
+      "hits": [
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-2",
+          "_score": 1,
+          "_source": {
+            "id": "user-2",
+            "name": "User 2",
+            "department": "HR",
+            "salary": 60000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        },
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-3",
+          "_score": 1,
+          "_source": {
+            "id": "user-3",
+            "name": "User 3",
+            "department": "Marketing",
+            "salary": 65000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        },
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-5",
+          "_score": 1,
+          "_source": {
+            "id": "user-5",
+            "name": "User 5",
+            "department": "Sales",
+            "salary": 75000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        },
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-0",
+          "_score": 1,
+          "_source": {
+            "id": "user-0",
+            "name": "User 0",
+            "department": "Engineering",
+            "salary": 50000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        },
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-1",
+          "_score": 1,
+          "_source": {
+            "id": "user-1",
+            "name": "User 1",
+            "department": "Sales",
+            "salary": 55000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        },
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-4",
+          "_score": 1,
+          "_source": {
+            "id": "user-4",
+            "name": "User 4",
+            "department": "Engineering",
+            "salary": 70000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        },
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-7",
+          "_score": 1,
+          "_source": {
+            "id": "user-7",
+            "name": "User 7",
+            "department": "Marketing",
+            "salary": 85000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        },
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-9",
+          "_score": 1,
+          "_source": {
+            "id": "user-9",
+            "name": "User 9",
+            "department": "Sales",
+            "salary": 95000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        },
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-6",
+          "_score": 1,
+          "_source": {
+            "id": "user-6",
+            "name": "User 6",
+            "department": "HR",
+            "salary": 80000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        },
+        {
+          "_index": "vitkuz-adapter-search-test-index",
+          "_id": "user-8",
+          "_score": 1,
+          "_source": {
+            "id": "user-8",
+            "name": "User 8",
+            "department": "Engineering",
+            "salary": 90000,
+            "joined_date": "2026-01-03T15:59:44.214Z"
+          }
+        }
+      ]
+    }
+  },
+  "statusCode": 200,
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:59:45 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "content-length": "2111",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*"
+  },
+  "meta": {
+    "context": null,
+    "request": {
+      "params": {
+        "method": "POST",
+        "path": "/vitkuz-adapter-search-test-index/_search",
+        "querystring": "",
+        "body": "{\"query\":{\"match_all\":{}}}",
+        "headers": {
+          "user-agent": "opensearch-js/3.5.1 (darwin 24.6.0-arm64; Node.js v24.12.0)",
+          "content-type": "application/json",
+          "content-length": "26"
+        },
+        "timeout": 30000
+      },
+      "options": {},
+      "id": 4
+    },
+    "name": "opensearch-js",
+    "connection": {
+      "url": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "id": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "headers": {},
+      "deadCount": 0,
+      "resurrectTimeout": 0,
+      "_openRequests": 0,
+      "status": "alive",
+      "roles": {
+        "data": true,
+        "ingest": true
+      }
+    },
+    "attempts": 0,
+    "aborted": false
+  }
+}

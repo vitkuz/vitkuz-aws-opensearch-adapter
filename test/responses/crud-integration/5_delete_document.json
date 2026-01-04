@@ -1,0 +1,57 @@
+{
+  "body": {
+    "_index": "vitkuz-adapter-crud-test-index",
+    "_id": "crud-doc-1",
+    "_version": 4,
+    "result": "deleted",
+    "forced_refresh": true,
+    "_shards": {
+      "total": 2,
+      "successful": 1,
+      "failed": 0
+    },
+    "_seq_no": 3,
+    "_primary_term": 1
+  },
+  "statusCode": 200,
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:46:20 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "content-length": "194",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*"
+  },
+  "meta": {
+    "context": null,
+    "request": {
+      "params": {
+        "method": "DELETE",
+        "path": "/vitkuz-adapter-crud-test-index/_doc/crud-doc-1",
+        "querystring": "refresh=true",
+        "body": "",
+        "headers": {
+          "user-agent": "opensearch-js/3.5.1 (darwin 24.6.0-arm64; Node.js v24.12.0)"
+        },
+        "timeout": 30000
+      },
+      "options": {},
+      "id": 9
+    },
+    "name": "opensearch-js",
+    "connection": {
+      "url": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "id": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "headers": {},
+      "deadCount": 0,
+      "resurrectTimeout": 0,
+      "_openRequests": 0,
+      "status": "alive",
+      "roles": {
+        "data": true,
+        "ingest": true
+      }
+    },
+    "attempts": 0,
+    "aborted": false
+  }
+}

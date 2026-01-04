@@ -1,0 +1,75 @@
+{
+  "body": {
+    "took": 3507,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 1,
+        "relation": "eq"
+      },
+      "max_score": 0.8025915,
+      "hits": [
+        {
+          "_index": "vitkuz-adapter-multi-type-test-index",
+          "_id": "cat-2",
+          "_score": 0.8025915,
+          "_source": {
+            "id": "cat-2",
+            "type": "category",
+            "name": "Fantasy",
+            "description": "Magic and dragons"
+          }
+        }
+      ]
+    }
+  },
+  "statusCode": 200,
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:10:35 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "content-length": "344",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*"
+  },
+  "meta": {
+    "context": null,
+    "request": {
+      "params": {
+        "method": "POST",
+        "path": "/vitkuz-adapter-multi-type-test-index/_search",
+        "querystring": "",
+        "body": "{\"query\":{\"multi_match\":{\"query\":\"Fantasy\",\"fields\":[\"name\",\"title\"]}}}",
+        "headers": {
+          "user-agent": "opensearch-js/3.5.1 (darwin 24.6.0-arm64; Node.js v24.12.0)",
+          "content-type": "application/json",
+          "content-length": "71"
+        },
+        "timeout": 30000
+      },
+      "options": {},
+      "id": 6
+    },
+    "name": "opensearch-js",
+    "connection": {
+      "url": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "id": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "headers": {},
+      "deadCount": 0,
+      "resurrectTimeout": 0,
+      "_openRequests": 0,
+      "status": "alive",
+      "roles": {
+        "data": true,
+        "ingest": true
+      }
+    },
+    "attempts": 0,
+    "aborted": false
+  }
+}

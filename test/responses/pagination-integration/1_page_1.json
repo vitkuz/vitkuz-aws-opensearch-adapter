@@ -1,0 +1,214 @@
+{
+  "body": {
+    "took": 164,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": {
+        "value": 25,
+        "relation": "eq"
+      },
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-0",
+          "_score": null,
+          "_source": {
+            "id": "user-0",
+            "name": "User 0",
+            "department": "Engineering",
+            "salary": 50000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-0"
+          ]
+        },
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-1",
+          "_score": null,
+          "_source": {
+            "id": "user-1",
+            "name": "User 1",
+            "department": "Sales",
+            "salary": 55000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-1"
+          ]
+        },
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-10",
+          "_score": null,
+          "_source": {
+            "id": "user-10",
+            "name": "User 10",
+            "department": "HR",
+            "salary": 100000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-10"
+          ]
+        },
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-11",
+          "_score": null,
+          "_source": {
+            "id": "user-11",
+            "name": "User 11",
+            "department": "Marketing",
+            "salary": 105000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-11"
+          ]
+        },
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-12",
+          "_score": null,
+          "_source": {
+            "id": "user-12",
+            "name": "User 12",
+            "department": "Engineering",
+            "salary": 110000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-12"
+          ]
+        },
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-13",
+          "_score": null,
+          "_source": {
+            "id": "user-13",
+            "name": "User 13",
+            "department": "Sales",
+            "salary": 115000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-13"
+          ]
+        },
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-14",
+          "_score": null,
+          "_source": {
+            "id": "user-14",
+            "name": "User 14",
+            "department": "HR",
+            "salary": 120000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-14"
+          ]
+        },
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-15",
+          "_score": null,
+          "_source": {
+            "id": "user-15",
+            "name": "User 15",
+            "department": "Marketing",
+            "salary": 125000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-15"
+          ]
+        },
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-16",
+          "_score": null,
+          "_source": {
+            "id": "user-16",
+            "name": "User 16",
+            "department": "Engineering",
+            "salary": 130000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-16"
+          ]
+        },
+        {
+          "_index": "vitkuz-adapter-pagination-test-index",
+          "_id": "user-17",
+          "_score": null,
+          "_source": {
+            "id": "user-17",
+            "name": "User 17",
+            "department": "Sales",
+            "salary": 135000,
+            "joined_date": "2026-01-03T16:03:53.569Z"
+          },
+          "sort": [
+            "user-17"
+          ]
+        }
+      ]
+    }
+  },
+  "statusCode": 200,
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:03:54 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "content-length": "2382",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*"
+  },
+  "meta": {
+    "context": null,
+    "request": {
+      "params": {
+        "method": "POST",
+        "path": "/vitkuz-adapter-pagination-test-index/_search",
+        "querystring": "size=10&from=0",
+        "body": "{\"query\":{\"match_all\":{}},\"sort\":[{\"id.keyword\":\"asc\"}]}",
+        "headers": {
+          "user-agent": "opensearch-js/3.5.1 (darwin 24.6.0-arm64; Node.js v24.12.0)",
+          "content-type": "application/json",
+          "content-length": "56"
+        },
+        "timeout": 30000
+      },
+      "options": {},
+      "id": 4
+    },
+    "name": "opensearch-js",
+    "connection": {
+      "url": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "id": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "headers": {},
+      "deadCount": 0,
+      "resurrectTimeout": 0,
+      "_openRequests": 0,
+      "status": "alive",
+      "roles": {
+        "data": true,
+        "ingest": true
+      }
+    },
+    "attempts": 0,
+    "aborted": false
+  }
+}

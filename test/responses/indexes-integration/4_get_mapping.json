@@ -1,0 +1,57 @@
+{
+  "body": {
+    "test-index-1767455724879-tci8x8": {
+      "mappings": {
+        "properties": {
+          "tags": {
+            "type": "keyword"
+          },
+          "title": {
+            "type": "text"
+          }
+        }
+      }
+    }
+  },
+  "statusCode": 200,
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:55:26 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "content-length": "115",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*"
+  },
+  "meta": {
+    "context": null,
+    "request": {
+      "params": {
+        "method": "GET",
+        "path": "/test-index-1767455724879-tci8x8/_mapping",
+        "querystring": "",
+        "body": "",
+        "headers": {
+          "user-agent": "opensearch-js/3.5.1 (darwin 24.6.0-arm64; Node.js v24.12.0)"
+        },
+        "timeout": 30000
+      },
+      "options": {},
+      "id": 4
+    },
+    "name": "opensearch-js",
+    "connection": {
+      "url": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "id": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "headers": {},
+      "deadCount": 0,
+      "resurrectTimeout": 0,
+      "_openRequests": 0,
+      "status": "alive",
+      "roles": {
+        "data": true,
+        "ingest": true
+      }
+    },
+    "attempts": 0,
+    "aborted": false
+  }
+}

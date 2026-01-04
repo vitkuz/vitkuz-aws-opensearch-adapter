@@ -1,0 +1,333 @@
+{
+  "body": {
+    "took": 105,
+    "errors": false,
+    "items": [
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-0",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-1",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-2",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-3",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-4",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-5",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-6",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 0,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-7",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-8",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 2,
+          "_primary_term": 1,
+          "status": 201
+        }
+      },
+      {
+        "index": {
+          "_index": "vitkuz-adapter-batch-test-index",
+          "_id": "batch-9",
+          "_version": 1,
+          "result": "created",
+          "forced_refresh": true,
+          "_shards": {
+            "total": 2,
+            "successful": 1,
+            "failed": 0
+          },
+          "_seq_no": 1,
+          "_primary_term": 1,
+          "status": 201
+        }
+      }
+    ]
+  },
+  "statusCode": 200,
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:44:22 GMT",
+    "content-type": "application/json; charset=UTF-8",
+    "content-length": "2197",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*"
+  },
+  "meta": {
+    "context": null,
+    "request": {
+      "params": {
+        "method": "POST",
+        "path": "/_bulk",
+        "querystring": "refresh=true",
+        "bulkBody": [
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-0"
+            }
+          },
+          {
+            "id": "batch-0",
+            "title": "Batch Item 0",
+            "count": 0
+          },
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-1"
+            }
+          },
+          {
+            "id": "batch-1",
+            "title": "Batch Item 1",
+            "count": 1
+          },
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-2"
+            }
+          },
+          {
+            "id": "batch-2",
+            "title": "Batch Item 2",
+            "count": 2
+          },
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-3"
+            }
+          },
+          {
+            "id": "batch-3",
+            "title": "Batch Item 3",
+            "count": 3
+          },
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-4"
+            }
+          },
+          {
+            "id": "batch-4",
+            "title": "Batch Item 4",
+            "count": 4
+          },
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-5"
+            }
+          },
+          {
+            "id": "batch-5",
+            "title": "Batch Item 5",
+            "count": 5
+          },
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-6"
+            }
+          },
+          {
+            "id": "batch-6",
+            "title": "Batch Item 6",
+            "count": 6
+          },
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-7"
+            }
+          },
+          {
+            "id": "batch-7",
+            "title": "Batch Item 7",
+            "count": 7
+          },
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-8"
+            }
+          },
+          {
+            "id": "batch-8",
+            "title": "Batch Item 8",
+            "count": 8
+          },
+          {
+            "index": {
+              "_index": "vitkuz-adapter-batch-test-index",
+              "_id": "batch-9"
+            }
+          },
+          {
+            "id": "batch-9",
+            "title": "Batch Item 9",
+            "count": 9
+          }
+        ],
+        "body": "{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-0\"}}\n{\"id\":\"batch-0\",\"title\":\"Batch Item 0\",\"count\":0}\n{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-1\"}}\n{\"id\":\"batch-1\",\"title\":\"Batch Item 1\",\"count\":1}\n{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-2\"}}\n{\"id\":\"batch-2\",\"title\":\"Batch Item 2\",\"count\":2}\n{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-3\"}}\n{\"id\":\"batch-3\",\"title\":\"Batch Item 3\",\"count\":3}\n{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-4\"}}\n{\"id\":\"batch-4\",\"title\":\"Batch Item 4\",\"count\":4}\n{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-5\"}}\n{\"id\":\"batch-5\",\"title\":\"Batch Item 5\",\"count\":5}\n{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-6\"}}\n{\"id\":\"batch-6\",\"title\":\"Batch Item 6\",\"count\":6}\n{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-7\"}}\n{\"id\":\"batch-7\",\"title\":\"Batch Item 7\",\"count\":7}\n{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-8\"}}\n{\"id\":\"batch-8\",\"title\":\"Batch Item 8\",\"count\":8}\n{\"index\":{\"_index\":\"vitkuz-adapter-batch-test-index\",\"_id\":\"batch-9\"}}\n{\"id\":\"batch-9\",\"title\":\"Batch Item 9\",\"count\":9}\n",
+        "headers": {
+          "user-agent": "opensearch-js/3.5.1 (darwin 24.6.0-arm64; Node.js v24.12.0)",
+          "content-type": "application/x-ndjson",
+          "content-length": "1210"
+        },
+        "timeout": 30000
+      },
+      "options": {},
+      "id": 3
+    },
+    "name": "opensearch-js",
+    "connection": {
+      "url": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "id": "https://search-minimalopensear-k7nora94w0ks-gbhgry4ieohgcafodgg6ytegym.us-east-1.es.amazonaws.com/",
+      "headers": {},
+      "deadCount": 0,
+      "resurrectTimeout": 0,
+      "_openRequests": 0,
+      "status": "alive",
+      "roles": {
+        "data": true,
+        "ingest": true
+      }
+    },
+    "attempts": 0,
+    "aborted": false
+  }
+}
